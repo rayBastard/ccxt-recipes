@@ -1,0 +1,20 @@
+{
+    "name": "ccxt-recipes",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "price-snapshot": "tsx src/price-snapshot.ts",
+        "ohlcv-to-csv": "tsx src/ohlcv-to-csv.ts",
+        "orderbook-stream": "tsx src/orderbook-stream.ts",
+        "funding-rates": "tsx src/funding-rates.ts",
+        "sandbox-order": "tsx src/sandbox-order.ts"
+    },
+    "dependencies": {
+        "ccxt": "^4.5.75"
+    },
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "tsx": "^4.19.0",
+        "typescript": "^5.5.0"
+    }
+}

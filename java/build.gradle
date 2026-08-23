@@ -1,0 +1,26 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.github.ccxt:ccxt:latest.release'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    // pick the recipe: gradle run -PmainClass=recipes.PriceSnapshot
+    mainClass = project.hasProperty('mainClass') ? project.property('mainClass') : 'recipes.PriceSnapshot'
+}
+
+run {
+    standardInput = System.in
+}

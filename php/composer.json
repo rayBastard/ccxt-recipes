@@ -1,0 +1,9 @@
+{
+    "name": "raybastard/ccxt-recipes",
+    "description": "CCXT recipes in PHP",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ccxt/ccxt": "^4.5"
+    }
+}
