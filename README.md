@@ -1,8 +1,8 @@
 # 🍳 CCXT Recipes
 
-Practical, runnable recipes for [CCXT](https://github.com/ccxt/ccxt) — the same task solved in **TypeScript, Python, PHP, C#, Go and Java**.
+Practical, runnable recipes for [CCXT](https://github.com/ccxt/ccxt) — the same task solved in **TypeScript, Python, PHP, C#, Go, Java and Rust**.
 
-CCXT is one TypeScript codebase transpiled to six languages, so the unified API looks and behaves the same everywhere. These recipes show exactly how the idioms map from one language to another.
+CCXT is one TypeScript codebase transpiled to seven languages, so the unified API looks and behaves the same everywhere. These recipes show exactly how the idioms map from one language to another.
 
 Maintained by [Roman Cuhari](https://github.com/rayBastard), CCXT core contributor. Questions about CCXT? Ping me on [Telegram](https://t.me/raybastard22).
 
@@ -26,6 +26,7 @@ Every recipe exists in every language:
 | C# | [`csharp/`](csharp/) | `dotnet run -- price-snapshot` |
 | Go | [`go/`](go/) | `go mod tidy && go run ./cmd/price-snapshot` |
 | Java | [`java/`](java/) | `gradle run -PmainClass=recipes.PriceSnapshot` |
+| Rust | [`rust/`](rust/) | `cargo run --bin price_snapshot` |
 
 All recipes accept an optional symbol argument, e.g. `npm run price-snapshot -- ETH/USDT`.
 
