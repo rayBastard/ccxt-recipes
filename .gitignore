@@ -3,8 +3,8 @@ package-lock.json
 __pycache__/
 vendor/
 composer.lock
-bin/
-obj/
+csharp/bin/
+csharp/obj/
 .gradle/
 build/
 go.sum
